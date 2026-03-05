@@ -192,7 +192,7 @@ def main():
     elapsed_time = 0
 
     while run:
-        clock.tick(144)
+        clock.tick(60)
 
         if sorting:
             elapsed_time = (pygame.time.get_ticks() - start_time) / 1000
